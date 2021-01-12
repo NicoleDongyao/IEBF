@@ -1,0 +1,15 @@
+Package: IEBF
+Type: Package
+Title: Image Enhancement Based on Filters
+Version: 0.1.0
+Author: c(person('Yunlin ', 'Liu',email = "liuyunlin@ruc.edu.cn"),
+          person('Yifan ', 'Xie'), 
+          person('Yao', 'Dong'))
+Maintainer: Yunlin Liu <liuyunlin@ruc.edu.cn>
+Description: The package is initially dedicated to blurred fingerprint image enhancement. Currently, three filters are taken into consideration, namely, Gabor filter, Laplace filter and Volterra filters. Additionally, we  try to process other different types of images. Non local mean filter is used to process portrait, particle image, medical image and landscape image.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.12)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
